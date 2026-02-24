@@ -23,3 +23,8 @@ npm i -g @nestjs/cli
 ```
 docker-compose up -d
 ```
+5. Implementar la seed con la data de prueba la base de datos
+
+```
+Hacer una peticion get a la ruta http://localhost:3000/api/v2/seed
+```

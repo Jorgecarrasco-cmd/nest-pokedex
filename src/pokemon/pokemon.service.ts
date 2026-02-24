@@ -31,7 +31,7 @@ export class PokemonService {
     }
   }
 
-  findAll() {}
+  findAll(){}
 
   async findOne(term: string) {
     let pokemon: Pokemon | null = null;
