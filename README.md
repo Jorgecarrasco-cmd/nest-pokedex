@@ -19,11 +19,17 @@ npm i -g @nestjs/cli
 
 4. Levantar la base de datos
 
-
 ```
 docker-compose up -d
 ```
-5. Implementar la seed con la data de prueba la base de datos
+
+5. Clonar el archivo __.env.template__ y renombrar la copia a ```.env``` 
+
+6. Llenar las variables de entorno definidas en el .env 
+
+7. Ejecutar la aplicacionn en dev: npm run start:dev
+
+7. Implementar la seed con la data de prueba la base de datos con el siguiente endpoint: 
 
 ```
 Hacer una peticion get a la ruta http://localhost:3000/api/v2/seed
